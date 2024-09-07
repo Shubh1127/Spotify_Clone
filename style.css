@@ -24,6 +24,7 @@ body{
     flex: 1;
     border-radius: 1rem;
     overflow: auto;
+    padding: 0 1.5rem 0 1.5rem;
 }
 .music-player{
     background-color: black;
@@ -125,6 +126,7 @@ a{
     align-items: center;
     justify-content: space-between;
     padding: 1rem 0 1rem;
+    z-index: 1;
 }
 .sticky-nav-icons {
     margin-left: 0.75rem;
@@ -151,4 +153,33 @@ a{
     .hide{
         display: none;
     }
+}
+.card{
+    background-color: #232323;
+    width: 170px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    /* margin-top: 1rem; */
+    margin-bottom: 1rem;
+}
+.card p{
+    padding: 0.6rem;
+
+}
+.cards-container{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    
+}
+.card-img{
+    border-radius: 0.5rem;
+    width: 100%;
+}
+.card-title{
+    font-weight: 600;;
+}
+.card-info{
+    font-size: 0.85rem;
+    opacity: 0.8;
 }
